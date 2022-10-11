@@ -60,8 +60,7 @@ div {
 
 div.normal {
     background-color: rgb(241, 241, 241);
-    font-family: var(--fonte3); 
-    font-weight: 600;       
+    font-family: var(--fonte3);              
 }
 
 div.imagem {
