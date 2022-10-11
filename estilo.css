@@ -15,8 +15,7 @@
 }
 
 html, body {
-    min-height: 100vh; /* tamanho minímo do corpo HTML, vai ser de  100% o tamanho da vh(view height), altura*/
-    background-color: darkgray;
+    min-height: 100vh; /* tamanho minímo do corpo HTML, vai ser de  100% o tamanho da vh(view height), altura*/    
     font-family: var(--fonte1);
 }
 
@@ -29,8 +28,7 @@ header {
 
 header h1 {    
     font-family: var(--fonte2);
-    padding-top: 50px;
-    margin-bottom: -15px;
+    padding-top: 50px;    
     font-size: 10vw; /* recurso para se adaptar a largura da tela (ñ é a melhor maneira)*/
     font-variant: small-caps; /* Temos tds as letras em maíusculo, mas as primeiras letras são maiores*/
 }
@@ -56,7 +54,7 @@ div {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.3vw; /* recurso para se adaptar a largura da tela(ñ é a melhor maneira)*/
+    font-size: 3.5vw; /* recurso para se adaptar a largura da tela(ñ é a melhor maneira)*/
 }
 
 div.normal {
