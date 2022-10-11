@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Tahoma, Sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100vh; /* tamanho minímo do corpo HTML, vai ser de  100% o tamanho da vh(view height), altura*/
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-image: url('imagens/campo-de-rosas.jpg');
+    background-position: center center;       
+    text-align: center;   
+    color: white;      
+}
+
+header h1 {    
+    font-family: var(--fonte2);
+    padding-top: 50px;
+    margin-bottom: -15px;
+    font-size: 10vw; /* recurso para se adaptar a largura da tela (ñ é a melhor maneira)*/
+    font-variant: small-caps; /* Temos tds as letras em maíusculo, mas as primeiras letras são maiores*/
+}
+
+header p {    
+    font-family: var(--fonte1);     
+    padding-bottom: 50px;   
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder; 
+    }
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    padding-top: 10vh; /* usado para que o conteúdo do site ganhe altura*/
+    padding-bottom: 10vh; /* usado para que o conteúdo do site ganhe altura*/
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.3vw; /* recurso para se adaptar a largura da tela(ñ é a melhor maneira)*/
+}
+
+div.normal {
+    background-color: rgb(241, 241, 241);
+    font-family: var(--fonte3); 
+    font-weight: 600;       
+}
+
+div.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.5); 
+    background-size: cover;   
+    background-attachment: fixed;
+}
+
+div#img1 {
+    background-image: url(imagens/paisagem.jpg);   
+    background-position: center center;       
+}
+
+div.imagem > p {    
+    display: inline-block;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.226);       
+}
+
+div#img2 {
+    background-image: url(imagens/escrita.jpg);
+    background-position: right center;       
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    text-align: center; 
+    color: white;   
+}
+
+footer p {    
+    font-family: var(--fonte1);
+    font-size: small;
+    padding: 10px;    
+}
