@@ -34,7 +34,8 @@ header h1 {
 }
 
 header p {    
-    font-family: var(--fonte1);     
+    font-family: var(--fonte1);  
+    padding-top: 10px;   
     padding-bottom: 50px;   
 }
 
